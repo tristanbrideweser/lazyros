@@ -8,6 +8,11 @@ Robotic development can be complicated. Multiple terminal windows, several synch
 - **No GUI needed**: Perfect over ssh on headless robots
 - **Live Monitoring**: Real-time frequency + data throughput for topics
 - **Quick Actions**: Restart nodes, echo topics, or edit parameters with one key
+
 ### Installation 
 
 ### Cheat Sheet
+
+| Key | Action |
+|-----|--------|
+|q|Quit|
