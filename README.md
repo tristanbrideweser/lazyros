@@ -1,8 +1,8 @@
-# Lazyros
+# Horizon
 A simple terminal-based UI for ROS2 development, inspired by [Lazygit](https://github.com/jesseduffield/lazygit)
 
-### Why Lazyros
-Robotic development can be complicated. Multiple terminal windows, several synchronous processes, etc. can cause confusion. Tools such as `rqt` already exist, but `lazyros` makes improvements:
+### Why Horizon
+Robotic development can be complicated. Multiple terminal windows, several synchronous processes, etc. can cause confusion. Tools such as `rqt` already exist, but `Horizon` makes improvements:
 
 - **Fast + Lightweight**: Built with Rust with zero overhead
 - **No GUI needed**: Perfect over ssh on headless robots
@@ -17,16 +17,16 @@ cargo build --release
 
 ### Usage
 
-Run lazyros from your ROS2 workspace root:
+Run Horizon from your ROS2 workspace root:
 
 ```bash
 cd ~/your_ros2_workspace
-/path/to/lazyros/target/release/lazyros
+/path/to/Horizon/target/release/Horizon
 ```
 
 Or use the test script:
 ```bash
-./test_lazyros.sh ~/your_ros2_workspace
+./test_Horizon.sh ~/your_ros2_workspace
 ```
 
 **Important**: Make sure ROS2 is sourced in your environment:
